@@ -1,0 +1,69 @@
+[2024-10-17 04:30:25] glpiphplog.WARNING: Test logger  
+[2024-10-17 04:31:05] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in C:\xampp\htdocs\glpi\install\install.php at line 180
+  Backtrace :
+  install\install.php:180                            mysqli->__construct()
+  install\install.php:608                            step3()
+  
+[2024-10-17 04:31:14] glpiphplog.DEBUG: Html::compileScss() in C:\xampp\htdocs\glpi\src\Html.php line 6935
+Compile css/palettes/auror.scss  {"user":"@DESKTOP-SSOTM9I"} 
+[2024-10-17 04:31:38] glpiphplog.WARNING: Test logger  
+[2024-10-17 04:34:01] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in C:\xampp\htdocs\glpi\install\install.php at line 180
+  Backtrace :
+  install\install.php:180                            mysqli->__construct()
+  install\install.php:608                            step3()
+  
+[2024-10-17 04:35:01] glpiphplog.WARNING: Test logger  
+[2024-10-17 04:38:04] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in C:\xampp\htdocs\glpi\install\install.php at line 180
+  Backtrace :
+  install\install.php:180                            mysqli->__construct()
+  install\install.php:608                            step3()
+  
+[2024-10-17 04:38:12] glpiphplog.WARNING: Test logger  
+[2024-10-17 04:39:50] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: mysqli::__construct(): Argument #5 ($port) must be of type ?int, string given in C:\xampp\htdocs\glpi\install\install.php at line 180
+  Backtrace :
+  install\install.php:180                            mysqli->__construct()
+  install\install.php:608                            step3()
+  
+[2024-10-17 04:43:24] glpiphplog.WARNING: Test logger  
+[2024-10-17 04:50:49] glpiphplog.CRITICAL:   *** Uncaught Exception Error: mysqli object is not fully initialized in C:\xampp\htdocs\glpi\src\DBmysql.php at line 396
+  Backtrace :
+  src\DBmysql.php:396                                mysqli->query()
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Config.php:2966                                DBmysql->request()
+  src\Config.php:3855                                Config::getConfigurationValues()
+  src\Telemetry.php:330                              Config::getUuid()
+  src\Telemetry.php:469                              Telemetry::getRegistrationUuid()
+  install\install.php:412                            Telemetry::showReference()
+  install\install.php:628                            step6()
+  
+[2024-10-17 04:51:19] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-10-17 04:51:41] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  index.php:87                                       include()
+  
+[2024-10-17 04:52:02] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/2002): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder in C:\xampp\htdocs\glpi\src\DBmysql.php at line 250
+  Backtrace :
+  src\DBmysql.php:250                                mysqli->real_connect()
+  src\DBmysql.php:209                                DBmysql->connect()
+  src\DBConnection.php:416                           DBmysql->__construct()
+  src\DBConnection.php:510                           DBConnection::switchToMaster()
+  inc\config.php:127                                 DBConnection::establishDBConnection()
+  inc\includes.php:58                                include_once()
+  front\locale.php:49                                include()
+  
